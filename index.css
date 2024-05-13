@@ -146,9 +146,10 @@ a:hover {
   color: var(--color-mid);
 }
 
-article p, article ul, article ol {
+article p, article ul, article li, article ol {
   max-width: 32rem;
   font-feature-settings: "liga" 1, "onum" 1;
+  font-size: 15px;
 }
 
 blockquote {
@@ -315,6 +316,7 @@ article a{
   height: auto;
   margin-top:-50px;
   margin-bottom:20px;
+  filter: drop-shadow(3.5px 3.5px 3.5px rgb(163, 160, 160));
 }
 
 .headertitle{
