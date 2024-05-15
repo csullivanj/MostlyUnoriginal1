@@ -10,9 +10,6 @@
 
 }
 
-
-
-
 .diderot:hover{
   opacity: 0.8
 }
@@ -119,7 +116,7 @@ h1 {
 h2 {
   font-size: 40px;
   font-weight: 400;
-  width: 100%;
+  width: 90%;
   max-width: 8em;
   line-height: 1.1;
   padding: var(--spacing-s) 0;
@@ -147,7 +144,7 @@ a:hover {
 }
 
 article p, article ul, article li, article ol {
-  max-width: 32rem;
+  max-width: 90%;
   font-feature-settings: "liga" 1, "onum" 1;
   font-size: 15px;
 }
@@ -312,7 +309,7 @@ article a{
 }
 
 .headerpic{
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   margin-top:-50px;
   margin-bottom:20px;
@@ -324,18 +321,15 @@ article a{
   color: gray;
   margin-top:-19px;
   margin-bottom:40px;
+  max-width: 90%;
 }
 
 article img{
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   margin-top:10px;
   margin-bottom:10px;
 }
-
-
-
-
 
 article p{
     font-size: 15px;
@@ -353,6 +347,28 @@ article header h1 span {
   display: block;
   color: var(--color-what);
   margin-bottom:12px;
+  max-width: 90%;
+}
+
+.article-what{
+  display: block;
+  color: var(--color-what);
+  margin-bottom:12px;
+  max-width: 90%;
+}
+
+.article-works{
+  display: block;
+  color: var(--color-works);
+  margin-bottom:12px;
+  max-width: 90%;
+}
+
+.article-history{
+  display: block;
+  color: var(--color-history);
+  margin-bottom:12px;
+  max-width: 90%;
 }
 
 
@@ -367,6 +383,7 @@ article header time {
 article footer {
   margin: var(--spacing-m) 0;
   font-size: var(--font-s);
+  max-width: 90%;
 }
 
 article footer p, article footer a {
@@ -383,6 +400,7 @@ article footer p, article footer a {
 .postnav .grid {
   display: grid;
 }
+
 
 
 /* -----------------------------------
