@@ -59,11 +59,11 @@
   --color-bg: #7e3d1d;
   --color-text: #0c3244;
   --color-why:rgb(155, 193, 231);
-  --color-essays: #81ccb9;
+  --color-essays: #81ccaa;
   --color-history: #bb8585;
   --color-works: #e1cf95;
   --color-what: rgb(220, 160, 191);
-  --color-other: #81dcc8;
+  --color-other: #af3558;
 }
 
 body.index {
@@ -76,7 +76,7 @@ body.index {
   --color-history: #bb8585;
   --color-works: #e1cf95;
   --color-what: rgb(220, 160, 191);
-  --color-other: #81dcc8;
+  --color-other: #af3358;
 }
 
 /* -----------------------------------
