@@ -57,6 +57,16 @@ body,
     margin-bottom: 10px;  /* optional: spacing below the line */
   }
 
+    .fancy-image {
+      width: 42em; /* smaller width */
+    height: auto; /* smaller height */
+    object-fit: cover; /* crops the image nicely without distortion */
+    border: 0px solid #ccc; /* light gray thin border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* soft shadow */
+    display: block;
+    margin: 20px auto; /* centers the image */
+  }
+
 </style>
 </head>
 
@@ -64,11 +74,13 @@ body,
   <div id="maincontent">
 
 <div id="navbarTop"; align="center">
-<h1 style="color: #000000; font-style: italic; font-weight:600; font-size: 45px;">Bird migration patterns</h1>
+<h1 style="color: #000000; font-style: italic; font-weight:600; font-size: 45px;">Bird migration</h1>
 </div>
 <h1 class="header"></h1>
 <b></b>
 <h3>25-April-24</h3>
+
+<img src="birds2.jpg" class="fancy-image" alt="A cool picture">
 
 <p>Why do some species migrate and others don't?</p>
   
